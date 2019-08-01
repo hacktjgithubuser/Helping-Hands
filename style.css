@@ -1,0 +1,83 @@
+body {
+  font-size: 30px;
+  font-family: "Cabin";
+}
+
+.name{
+  margin: 0 auto;
+  text-align: center;
+  background-color:  #eaeae1;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.creators{
+  text-align: center;
+}
+
+@font-face{
+    font-family: "Cabin";
+    src: url('Cabin-Regular-TTF.ttf'),
+    url('Cabin-Regular-TTF.eot');
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: #ffb84d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.logo {
+  width: 10%;
+  margin: 5px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu-ctn li {
+  display: inline-block;
+  background-color: white;
+  /* padding: 10px 15px; */
+  transition: all 0.3s ease;
+}
+
+.menu-ctn li:hover {
+  /* cursor: pointer; */
+  background-color: #b3e0ff;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-family: "Cabin";
+    font-size: 20px;
+}
+
+.hi {
+  margin: 30px;
+  background-color: #eaeae1;
+  padding: 25px;
+}
+
+.bodynewjob {
+  margin: 30px;
+  background-color: #eaeae1;
+  padding: 15px;
+}
